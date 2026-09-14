@@ -1,1 +1,23 @@
+public class Mascota {
+    int edad;
+    String especie;
+    String nombre;
+  
+    public Mascota(int edad, String especie, String nombre) {
+        this.edad = edad;
+        this.especie = especie;
+        this.nombre = nombre;
+    }
+    public static void main(String[] args){
+        Mascota m1 = new Mascota (5, "perro", "bruno");
+        Mascota m2 = new Mascota(3, "gato", "tigresa");
+        Mascota m3 = new Mascota(9, "gato", "copito");
 
+        String d1 = String.format("Edad: %d años, Especie: %s, Nombre: %s", m1.edad, m1.especie, m1.nombre);
+        String d2 = String.format("Edad: %d años, Especie: %s, Nombre: %s", m2.edad, m2.especie, m2.nombre);
+        String d3 = String.format("Edad: %d años, Especie: %s, Nombre: %s", m3.edad, m3.especie, m3.nombre);
+        System.out.println(d1);
+        System.out.println(d2);
+        System.out.println(d3);
+    }
+}
