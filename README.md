@@ -9,4 +9,5 @@ Dentro del método `main`, desarrollé la siguiente lógica:
 3. Imprimí estas cadenas formateadas por consola para verificar que la información se guardó de forma independiente en cada objeto.
 
 Ejecución en consola
-<img width="1366" height="722" alt="{C31A42E9-1601-49EB-A511-553327E5024C}" src="https://github.com/user-attachments/assets/70b96771-da73-4bc6-8f4f-4d7d4f0bd283" />
+<img width="1366" height="718" alt="imagen" src="https://github.com/user-attachments/assets/a2f5ce8f-c888-4a37-aaae-59d01687c148" />
+
