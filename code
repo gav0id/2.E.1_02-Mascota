@@ -2,12 +2,15 @@ public class Mascota {
     int edad;
     String especie;
     String nombre;
-  
+
     public Mascota(int edad, String especie, String nombre) {
         this.edad = edad;
         this.especie = especie;
         this.nombre = nombre;
     }
+}
+
+public class Main {
     public static void main(String[] args){
         Mascota m1 = new Mascota (5, "perro", "bruno");
         Mascota m2 = new Mascota(3, "gato", "tigresa");
